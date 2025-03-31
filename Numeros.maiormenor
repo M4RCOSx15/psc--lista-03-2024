@@ -1,0 +1,32 @@
+package arquivo;
+import java.util.Scanner;
+public class Numeros {
+    public static void main(String[] args) {
+         Scanner numero = new Scanner(System.in);
+         int nmaior = 0;
+         int nmenor = 0;
+         int cont =0;
+         for (int i = 0; i < 3; i++){
+           
+            System.out.println("digite um numero: ");
+             int num1 = numero.nextInt();
+              while(cont==0){
+              nmaior = num1;
+              nmenor = num1;
+              cont++;
+            }
+          if (num1>nmaior){
+          nmaior = num1;                
+          }
+          if (num1<nmenor){
+            nmenor = num1;                
+           
+            }
+
+        }
+       
+        System.out.println("O maior numero é :"+nmaior);
+        System.out.println("O menor numero é :"+nmenor);
+    }
+   
+}
