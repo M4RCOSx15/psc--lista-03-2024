@@ -46,5 +46,6 @@ public class Numeros{
                System.out.println("Nota de 5 : "+nota5);
                System.out.println("Nota de 2 : "+nota2);
         }
-    }
+     leia.close();   
+ }
 }
